@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #3c5d3c);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* DASHBOARD LAYOUT */
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+/* LEFT & RIGHT SECTIONS */
+.left-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* CARD STYLE */
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* CONVERTER CARD BIGGER */
+.converter-card {
+    padding: 25px;
+}
+
+.converter-card input,
+.converter-card select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.currency-select {
+    display: flex;
+    gap: 15px;
+}
+
+.currency-select div {
+    flex: 1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #3c5d3c, #414241);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+/* GRAPH */
+.graph-card canvas {
+    width: 100%;
+    height: 250px;
+}
+
+/* RATES LIST */
+.rates-card ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.rates-card li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* PROFIT LOSS */
+.profit-card p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+#profitLoss {
+    font-weight: bold;
+}
+
+/* SUGGESTION */
+.card suggestion {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+/* ALERTS */
+.alerts-card input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* HEADINGS */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 10px;
+    color: #3c5d3c;
+}
