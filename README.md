@@ -31,16 +31,10 @@ This project simulates a mini forex trading dashboard using live API data and in
 
 ## 📷 Dashboard Preview
 
-(Add your project screenshot here)
-
-Example:
+```
+<img width="1897" height="911" alt="Screenshot" src="https://github.com/user-attachments/assets/b9741af3-baa9-4a81-b408-3c09bffe7f07" />
 
 ```
-<img width="1897" height="911" alt="Screenshot" src="https://github.com/user-attachments/assets/6bd06068-474c-4d1a-b68f-368ca227d495" />
-
-```
-
----
 
 ## ⚙️ How It Works
 
