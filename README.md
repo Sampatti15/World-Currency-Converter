@@ -32,7 +32,7 @@ This project simulates a mini forex trading dashboard using live API data and in
 ## 📷 Dashboard Preview
 
 ```
-<img width="1897" height="911" alt="Screenshot" src="https://github.com/user-attachments/assets/b9741af3-baa9-4a81-b408-3c09bffe7f07" />
+![Dashboard Screenshot](screenshot.png)
 
 ```
 
