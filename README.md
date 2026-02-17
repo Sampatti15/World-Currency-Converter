@@ -30,15 +30,6 @@ This project simulates a mini forex trading dashboard using live API data and in
 
 ---
 
-## 📷 Dashboard Preview
-
-```
-![![Uploading screenshot.png…]()
-](screenshot.png)
-```
-
----
-
 ## ⚙️ How It Works
 
 The application fetches live exchange rates from an API and:
